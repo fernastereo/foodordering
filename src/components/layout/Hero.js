@@ -11,10 +11,13 @@ export default function Hero() {
           <br />
           is better
           <br />
-          with a&nbsp;
-          <span className='text-primary'>Pizza</span>
+          with &nbsp;
+          <span className='text-primary'>Food</span>
         </h1>
-        <p className='my-6 text-gray-500 text-sm'>Pizza is the missing piece that makes every day complete, a simple yet delicious joy in life</p>
+        <p className='my-6 text-gray-500 text-sm'>
+          Food is the missing piece that makes every day complete, a simple yet
+          delicious joy in life
+        </p>
         <div className='flex gap-8 text-sm'>
           <button className='bg-primary uppercase flex items-center gap-2 text-white px-4 py-2 rounded-full'>
             Order Now
@@ -28,7 +31,7 @@ export default function Hero() {
       </div>
       <div className='relative'>
         <Image
-          src={'/pizza.png'}
+          src={'/burguer1.png'}
           layout={'fill'}
           objectFit={'contain'}
           alt={'Pizza'}

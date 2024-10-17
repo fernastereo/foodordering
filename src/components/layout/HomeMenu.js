@@ -5,24 +5,6 @@ import SectionHeaders from './SectionHeaders';
 export default function HomeMenu() {
   return (
     <section className=''>
-      <div className='absolute left-0 right-0 w-full justify-start'>
-        <div className='absolute left-0 -top-[70px] -z-10'>
-          <Image
-            src={'/sallad1.png'}
-            width={109}
-            height={189}
-            alt={'Sallasd'}
-          />
-        </div>
-        <div className='absolute -top-[100px] right-0 -z-10'>
-          <Image
-            src={'/sallad2.png'}
-            width={107}
-            height={187}
-            alt={'Sallad'}
-          />
-        </div>
-      </div>
       <div className='text-center mb-6'>
         <SectionHeaders
           mainHeader={'Menu'}
@@ -30,12 +12,60 @@ export default function HomeMenu() {
         />
       </div>
       <div className='grid grid-cols-3 gap-4'>
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
+        <MenuItem
+          name='Bowl'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='12,5'
+          imageSrc='/bowl.png'
+        />
+        <MenuItem
+          name='Super Burguer'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='16'
+          imageSrc='/burguer1.png'
+        />
+        <MenuItem
+          name='Hot Dog Mega'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='14'
+          imageSrc='/hot-dog.png'
+        />
+        <MenuItem
+          name='Vier Käse Pizza'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='13'
+          imageSrc='/pizza.png'
+        />
+        <MenuItem
+          name='Lunch #1'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='8,5'
+          imageSrc='/lunch1.png'
+        />
+        <MenuItem
+          name='Lunch #2'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='14'
+          imageSrc='/lunch2.png'
+        />
+        <MenuItem
+          name='Salad'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='12'
+          imageSrc='/sallad3.png'
+        />
+        <MenuItem
+          name='BBQ Wings'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='15'
+          imageSrc='/wings.png'
+        />
+        <MenuItem
+          name='Tacos (3)'
+          description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet.'
+          price='8'
+          imageSrc='/tacos.png'
+        />
       </div>
     </section>
   );

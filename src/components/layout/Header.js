@@ -7,7 +7,7 @@ export default function Header() {
         <Link
           className='text-primary font-semibold text-2xl p-4'
           href={'/'}>
-          ST Pizza
+          FST-Food
         </Link>
         <Link href={'/'}>Home</Link>
         <Link href={''}>Menu</Link>
